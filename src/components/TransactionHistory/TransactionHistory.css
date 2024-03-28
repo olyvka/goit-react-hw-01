@@ -1,0 +1,36 @@
+/* TransactionHistory.css */
+
+/* Стиль для другого рядка */
+.transaction-history tr:nth-child(even) {
+    background-color: #cccccc; /* Сірий колір фону */
+}
+.transaction-history tr:nth-child(odd) {
+    background-color: #e9e9e9; /* Сірий колір фону */
+}
+
+.transaction-history-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    /* центруємо по горизонталі */
+}
+
+.transaction-history {
+    width: 800px;
+    border-collapse: collapse;
+    border-radius: 10px; /* Заокруглення кутів */
+    overflow: hidden; /* Щоб заокруглити кути для всіх браузерів */
+
+}
+
+.transaction-history th,
+.transaction-history td {
+    border: 0px solid #514f4f;
+    padding: 8px;
+    text-align: left;
+}
+
+.transaction-history th {
+    background-color: #514f4f;
+    color: #cccccc;
+}

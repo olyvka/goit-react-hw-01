@@ -1,0 +1,29 @@
+/* FriendList.css */
+.friend-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Центрує елементи горизонтально */
+    padding-bottom: 50px;
+  }
+  
+  /* FriendListItem.css */
+  .friend-item {
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тінь */
+  }
+  
+  .status-online {
+    color: green;
+  }
+  
+  .status-offline {
+    color: red;
+  }
+  
